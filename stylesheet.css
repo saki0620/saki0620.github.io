@@ -65,3 +65,104 @@ a {
 .twitter{
   background-color:#55acee;
 }
+
+header{
+  height:65px;
+  width:100%;
+  background-color:rgba(34,49,52,0.9);
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.header-left{
+  float:left;
+}
+
+.logo{
+  width:124px;
+  margin-top:20px;
+}
+
+.header-right{
+  float:right;
+  background-color:rgba(255,255,255,0.3);
+  transition:all 0.5s;
+}
+
+.header-right a{
+  line-height:65px;
+  padding:0 25px;
+  color:white;
+  display:block;
+}
+
+.heading h2{
+  font-weight:normal;
+}
+
+.lesson{
+  float:left;
+  width:25%;
+}
+
+.lesson-wrapper{
+  height:580px;
+  background-color:#f7f7f7;
+  text-align:center;
+}
+
+.lesson-icon{
+  position:relative;
+}
+
+.lesson-icon p{
+  position:absolute;
+  top:44%;
+  width:100%;
+  color:white;
+}
+
+.heading{
+  padding-top:80px;
+  padding-bottom:50px;
+  color:#5f5d60;
+}
+
+.text-contents{
+  width:80%;
+  display:inline-block;
+  margin-top:15px;
+  font-size:13px;
+  color:#b3aeb5;
+}
+
+.message-wrapper{
+  padding-bottom:80px;
+  text-align:center;
+}
+
+.heading h2{
+font-weight:normal;  
+}
+
+.message{
+  padding:15px 40px;
+  background-color:#5dca88;
+  cursor:pointer;
+  box-shadow:0 7px #1a7940;
+}
+
+footer{
+  padding:30px;
+  border-top:1px solid #eee;
+}
+
+footer img{
+  width:124px;
+}
+
+footer p{
+  color:#b3aeb5;
+font-size:12px;
+  }
